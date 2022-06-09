@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.ochirgoryaeva.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.ochirgoryaeva.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.ochirgoryaeva.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_brouser"
+        android:name="ru.mirea.ochirgoryaeva.mireaproject.BrouserFragment"
+        android:label="@string/brouser"
+        tools:layout="@layout/fragment_brouser" />
+    <fragment
+        android:id="@+id/nav_calculate"
+        android:name="ru.mirea.ochirgoryaeva.mireaproject.CalculateFragment"
+        android:label="@string/calculate"
+        tools:layout="@layout/fragment_calculate" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.ochirgoryaeva.mireaproject.CameraFragment"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/nav_accel"
+        android:name="ru.mirea.ochirgoryaeva.mireaproject.AccelerometerFragment"
+        android:label="@string/menu_accel"
+        tools:layout="@layout/fragment_accelerometer" />
+    <fragment
+        android:id="@+id/nav_audio"
+        android:name="ru.mirea.ochirgoryaeva.mireaproject.AudiorecordFragment"
+        android:label="@string/menu_audio"
+        tools:layout="@layout/fragment_audiorecord" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="ru.mirea.ochirgoryaeva.mireaproject.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_history_sett"
+        android:name="ru.mirea.ochirgoryaeva.mireaproject.HistorySettFragment"
+        android:label="@string/menu_history_sett"
+        tools:layout="@layout/fragment_history_sett" />
+    <fragment
+        android:id="@+id/nav_firebaseauth"
+        android:name="ru.mirea.ochirgoryaeva.mireaproject.FirebaseauthFragment"
+        android:label="@string/firebaseauth"
+        tools:layout="@layout/fragment_firebaseauth" />
+</navigation>
